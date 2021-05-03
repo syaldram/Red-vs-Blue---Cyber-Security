@@ -23,21 +23,29 @@ This report includes;
 Completed the following high-level steps:
 1. Scan the network to identify the IP addresses of Target 1.
 
-2. Document all exposed ports and services.
+![](Images/nmap%20scan1.JPG)
 
-3. Enumerate the WordPress site. One flag is discoverable after this step.
-     - **Hint**: Look for the `Users` section in the output.
+2. Enumerate the WordPress site.
 
-4. Use SSH to gain a user shell. Two flags can be discovered at this step.
-     - **Hint**: Guess `michael`'s password. What's the most obvious possible guess?...
+![](Images/wp%20scan1.JPG)
+![](Images/wpscan2.JPG)
 
+4. Use SSH to gain a user shell.
+
+![](Images/ssh%20michael.JPG)
+   
 5. Find the MySQL database password.
-     
 
+![](Images/mySQL%20database%20password.JPG)
+     
 6. Use the credentials to log into MySQL and dump WordPress user password hashes.
 
-7. Crack password hashes with `john`.
- 
-8. Secure a user shell as the user whose password you cracked.
+![](Images/show%20users.JPG)
 
-9. Escalate to `root`. One flag can be discovered after this step.
+7. Crack password hashes with John.
+
+![](Images/steven%20password.JPG)
+ 
+8. Secure a user shell as the user whose password was cracked & escalate to root.
+
+![](Images/root%20access%20target%201.JPG)
