@@ -1,5 +1,7 @@
 # Red-vs-Blue---Cyber-Security
 
+## Please see the Red vs Blue Presentation for full detail report!
+
 Azure lab environment  for assessment, analysis, and hardening of a vulnerable system.
 This report includes;
    - Red Team (Offensive) Security Assessment
