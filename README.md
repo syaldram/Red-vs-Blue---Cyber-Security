@@ -8,7 +8,7 @@ This report includes;
 
 ### Lab Environment 
 
-- **Capstone** (`192.168.1.105`): The VM is in the network solely for the purpose of testing alerts. and will forward logs to the ELK machine. 
+- **Capstone** (`192.168.1.105`): The VM is in the network solely for the purpose of testing alerts and will forward logs to the ELK machine. 
   
 - **ELK** (`192.168.1.100`): The ELK VM that holds the Kibana dashboards.
 
